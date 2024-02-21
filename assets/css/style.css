@@ -1,10 +1,13 @@
+/* Google Fonts Import */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 /* Routine Styling */
 body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     color: black;
-    
+    font-family: 'Playfair Display', sans-serif;
 }
 
 
