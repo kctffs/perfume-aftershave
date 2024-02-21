@@ -1,0 +1,30 @@
+/* Routine Styling */
+body {
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+
+
+
+
+
+
+
+
+/* Header Content */
+header {
+    background-color: aquamarine;
+
+}
+
+/* Main Content */
+main {
+    background-color: blueviolet;
+}
+
+/* Footer Content */ 
+footer {
+    background-color: darkslateblue;
+}
+
