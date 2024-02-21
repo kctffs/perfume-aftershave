@@ -2,7 +2,9 @@
 body {
     display: flex;
     flex-direction: column;
+    min-height: 100vh;
     color: black;
+    
 }
 
 
@@ -21,6 +23,8 @@ header {
 /* Main Content */
 main {
     background-color: blueviolet;
+    /* Property to push Footer down */
+    flex: 1 0 auto;
 }
 
 /* Footer Content */ 
