@@ -10,17 +10,14 @@ body {
     font-family: 'Playfair Display', sans-serif;
 }
 
-
-
-
-
-
-
-
 /* Header Content */
 header {
     background-color: aquamarine;
+}
 
+h1 {
+    font-family: 'Barlow', sans-serif;
+    text-transform: uppercase;
 }
 
 /* Main Content */
