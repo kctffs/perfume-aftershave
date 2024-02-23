@@ -28,6 +28,12 @@ main {
 }
 
     /* Form */
+#submission {
+    background-image: url(../images/pexels-bortnikoff.jpg);
+    background-size: cover;
+    background-position: 50%;
+    padding: 50;
+}
 
 #submission-form {
     background-color: rgba(255, 255, 255, 0.2);
