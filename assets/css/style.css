@@ -48,14 +48,15 @@ main {
     height: 30px;
     margin-top: 5px;
     margin-bottom: 15px;
-    border: solid 5px #000000;
-    padding: 1px 100px 1px 5px;
+    border: solid 5px #ccae68;
+    border-radius: 10px;
+    padding: 1px 0 1px 5px;
 }
 
 #email-form {
     background-color: rgba(0, 0, 0, 0.5);
     color: #ccae68;
-    padding: 10px 25px;
+    padding: 2px 25px 40px 25px;
 }
 
 /* Footer Content */ 
