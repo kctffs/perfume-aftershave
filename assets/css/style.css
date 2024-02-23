@@ -27,6 +27,18 @@ main {
     flex: 1 0 auto;
 }
 
+    /* Form */
+
+#submission-form {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #3d7ca1;
+}
+
+#email-form {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #3d7ca1;
+}
+
 /* Footer Content */ 
 footer {
     background-color: darkslateblue;
