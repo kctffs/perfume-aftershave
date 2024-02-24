@@ -33,6 +33,18 @@ h1 {
     text-transform: uppercase;
 }
 
+/* Navigation */
+#dropdown {
+    font-family: 'Barlow', sans-serif;
+    list-style-type: none;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#dropdown > li {
+    margin: 5px;
+}
+
 /* Main Content */
 main {
     background-color: rgb(155, 155, 155);
