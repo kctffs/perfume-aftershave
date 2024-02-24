@@ -25,7 +25,7 @@ header a {
 #trademark {
     color: #ccae68;
     text-align: center;
-    letter-spacing: 60px;
+    letter-spacing: 10px;
 }
 
 h1 {
@@ -61,13 +61,13 @@ main {
     background-image: url(../images/pexels-bortnikoff.jpg);
     background-size: cover;
     background-position: 300%;
-    padding: 360px 5rem;
+    padding: 5px 1rem;
 }
 
 #submission-form {
     background-color: rgba(0, 0, 0, 0.5);
     color: #ccae68;
-    padding: 10px 25px;
+    padding: 5px 1rem;
 }
 
 .text-field {
