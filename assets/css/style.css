@@ -12,7 +12,7 @@ body {
 
 /* Header Content */
 header {
-    background-color: #000000;
+    background-color: rgba(0, 0, 0, 0.9);
     position: fixed;
     width: 100%;
 }
@@ -43,6 +43,10 @@ h1 {
 
 #dropdown > li {
     margin: 5px;
+}
+
+nav {
+    position: relative;
 }
 
 /* Main Content */
