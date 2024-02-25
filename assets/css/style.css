@@ -106,3 +106,11 @@ footer {
     background-color: rgba(0, 0, 0, 0.5);
 }
 
+/* Media Query for Tablets etc 768px+ */
+@media screen and (min-width: 768px) {
+/* Header Content */
+    nav {
+        position: relative;
+        width: fit-content;
+    }
+}
