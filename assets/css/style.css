@@ -12,11 +12,11 @@ body {
 
 /* Header Content */
 header {
-    background-color: rgba(0, 0, 0, 0.9);
+    background-color: rgba(0, 0, 0, 0.5);
     position: fixed;
     width: 100%;
-    padding: 0 1px;
-    box-shadow: 0 4px #ccae68;
+    align-items: baseline;
+    text-align: center;
 }
 
 header a {
@@ -26,8 +26,7 @@ header a {
 
 #trademark {
     color: #ccae68;
-    text-align: center;
-    letter-spacing: 10px;
+    letter-spacing: 8px;
 }
 
 h1 {
@@ -48,8 +47,14 @@ h1 {
 }
 
 nav {
-    position: relative;
+    position: absolute;
+    background-color: #000000;
+    width: 100%;
+    z-index: -1;
+    padding-top: 5em;
+    display: none;
 }
+
 
 /* Main Content */
 main {
