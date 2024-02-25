@@ -77,7 +77,7 @@ main {
     background-image: url(../images/pexels-bortnikoff.jpg);
     background-color: #000000;
     background-size: cover;
-    background-position: 300%;
+    background-position: 10000%;
     padding: 5px 1rem;
 }
 
@@ -120,4 +120,19 @@ footer {
         width: 100%;
         padding: 5px 0 5px 5px;
     }
+
+    #dropdown {
+        display: flex;
+        width: fit-content;
+        padding-right: 40px;
+        margin-left: 290px;
+    }
+
+    #submission {
+        background-size: cover;
+    }
+
+    /* Main Content */
+
+    /* Footer Content */
 }
