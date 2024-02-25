@@ -57,6 +57,10 @@ nav {
     display: block;
 }
 
+#dropdown-toggle {
+    display: none;
+}
+
 /* Main Content */
 main {
     background-color: rgb(155, 155, 155);
