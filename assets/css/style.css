@@ -119,15 +119,10 @@ main {
     padding: 2px 25px 40px 25px;
 }
 
-#submit-button {
+.submit-button {
     border-radius: 3em;
     padding: 5px;
-}
-
-#email-button {
-    border-radius: 3em;
-    padding: 5px;
-}
+}git
 
 /* Footer Content */ 
 footer {
