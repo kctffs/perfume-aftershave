@@ -95,6 +95,14 @@ main {
     background-color: rgba(0, 0, 0, 0.7);
     color: #ccae68;
     padding: 5px 1rem;
+    text-align: center;
+}
+
+#email-form {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #ccae68;
+    padding: 5px 1rem;
+    text-align: center;
 }
 
 .text-field {
@@ -109,10 +117,12 @@ main {
     padding: 1px 0 1px 5px;
 }
 
-#email-form {
-    background-color: rgba(0, 0, 0, 0.7);
-    color: #ccae68;
-    padding: 2px 25px 40px 25px;
+.submission-title {
+    color: #ffffff;
+}
+
+.form-explain {
+    padding: 10px
 }
 
 .submit-button {
