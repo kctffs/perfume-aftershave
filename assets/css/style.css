@@ -80,12 +80,23 @@ main {
     /* Form */
 #submission {
     background-image: url(../images/pexels-bortnikoff.jpg);
-    background-color: #000000;
     background-size: cover;
+    background-position: 850%;
+    padding: 3rem;
+}
+
+#form-heading {
+    color: #ffffff;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.submission-title {
+    color: #ffffff;
 }
 
 #submission-form {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     color: #ccae68;
     padding: 5px 1rem;
 }
@@ -103,14 +114,24 @@ main {
 }
 
 #email-form {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     color: #ccae68;
     padding: 2px 25px 40px 25px;
 }
 
+#submit-button {
+    border-radius: 3em;
+    padding: 5px;
+}
+
+#email-button {
+    border-radius: 3em;
+    padding: 5px;
+}
+
 /* Footer Content */ 
 footer {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgb(255, 255, 255)
 }
 
 /* Media Query for Tablets etc 768px+ */

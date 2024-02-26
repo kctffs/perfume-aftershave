@@ -40,25 +40,25 @@
     <main>
         <section id="submission">
             <form method="post" id="submission-form" action="https://formdump.codeinstitute.net">
-                <h1>Submit yours!</h1>
-                <h3>Submit your favourite perfume or aftershave to have them ranked amongest other the universal fragrance names in the industury.</h3>
+                <h1 id ="form-heading">Submit yours!</h1>
+                <h3>Submit your favourite perfume or aftershave to have them ranked amongest other the universal fragrance names.</h3>
                     <label for="fragrance_company">Fragrance Company</label>
-                        <input type="text" name="fragrance_company" class="text-field" required>
+                        <input type="text" name="fragrance_company" class="text-field submission-title" required>
                             <br>
                     <label for="fragrance_name">Fragrance Name</label>
-                        <input type="text" name="fragrance_name" class="text-field" required>
+                        <input type="text" name="fragrance_name" class="text-field submission-title" required>
                             <br>
                     <label for="wishlist">Tell us what's on your wishlist</label>
-                        <input type="text" name="wishlist" class="text-field">
+                        <input type="text" name="wishlist" class="text-field submission-title">
                             <br>
-                    <button type="submit">Submit</button>
+                    <button type="submit" id="submit-button">Submit</button>
             </form>
             <form method="post" id="email-form" action="https://formdump.codeinstitute.net">
-                <h3>Provide your email to get the latest updates on all things fragrance and recieve exclusive early access to our monthly tier lists.</h3>
+                <h3>Get the latest updates on all things fragrance and recieve exclusive access to our monthly tier lists.</h3>
                     <label for="email_address">Email Address</label>
-                        <input type="email" name="email_address" class="text-field">
+                        <input type="email" name="email_address" class="text-field submission-title">
                             <br>
-                    <button type="submit">Early Access!</button>
+                    <button type="submit" id="email-button">Early Access!</button>
             </form>
                 
             </form>
