@@ -17,7 +17,7 @@ body {
 
 /* Header Content */
 header {
-    background-color: #000000;
+    background-color: #ffffff;
     position: fixed;
     width: 100%;
     text-align: center;
@@ -31,7 +31,7 @@ header a {
 #trademark {
     color: #ccae68;
     letter-spacing: 8px;
-    padding: 20px 0;
+    padding: 20px 0 10px 0;
 }
 
 h1 {
@@ -43,19 +43,18 @@ h1 {
 #dropdown {
     font-family: 'Barlow', sans-serif;
     list-style-type: none;
-    border: solid 2px #ccae68;
+    border: solid 2px #ffffff;
     text-transform: uppercase;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 1);
+    background-color: #ffffff;
 }
 
 #dropdown > li {
-    margin: 5px;
+    margin: 10px;
 }
 
 nav {
     position: absolute;
-    background-color: #ffffff;
     width: 100%;
     display: none;
     font-weight: bold;
@@ -83,8 +82,6 @@ main {
     background-image: url(../images/pexels-bortnikoff.jpg);
     background-color: #000000;
     background-size: cover;
-    background-position: 10000%;
-    padding: 5px 1rem;
 }
 
 #submission-form {
