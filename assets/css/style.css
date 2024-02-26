@@ -12,7 +12,7 @@ body {
 
 /* Header Content */
 header {
-    background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
     position: fixed;
     width: 100%;
     text-align: center;
@@ -41,6 +41,9 @@ h1 {
     border: solid 2px #ccae68;
     text-transform: uppercase;
     margin-right: 16px;
+    justify-content: end;
+    background-color: rgba(0, 0, 0, 1);
+    padding-right: 22px;
 }
 
 #dropdown > li {
