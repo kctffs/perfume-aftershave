@@ -81,7 +81,7 @@ main {
 #submission {
     background-image: url(../images/pexels-bortnikoff.jpg);
     background-size: cover;
-    background-position: 850%;
+    background-position: 1000%;
     padding: 3rem;
 }
 
@@ -89,10 +89,6 @@ main {
     color: #ffffff;
     text-align: center;
     padding-bottom: 10px;
-}
-
-.submission-title {
-    color: #ffffff;
 }
 
 #submission-form {
@@ -104,12 +100,12 @@ main {
 .text-field {
     background-color: transparent;
     color: #ffffff;
-    width: 100%;
-    height: 30px;
+    width: 98%;
+    height: 25px;
     margin-top: 5px;
     margin-bottom: 15px;
-    border: solid 5px #ccae68;
-    border-radius: 10px;
+    border: solid 3px #ccae68;
+    border-radius: 5px 5px 100px 5px;
     padding: 1px 0 1px 5px;
 }
 
@@ -122,7 +118,7 @@ main {
 .submit-button {
     border-radius: 3em;
     padding: 5px;
-}git
+}
 
 /* Footer Content */ 
 footer {
