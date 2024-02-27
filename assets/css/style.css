@@ -171,11 +171,22 @@ main {
         margin-left: 290px;
     }
 
+    /* Main Content */
+
     #submission {
         background-size: cover;
+        height: 910px
     }
 
-    /* Main Content */
+    #submission-form {
+        margin-top: 25%;
+        padding: 50px 20px 0 20px
+    }
+
+    #email-form {
+        margin-bottom: 25%;
+        padding: 0 20px 50px 20px;
+    }
 
     /* Footer Content */
 }
