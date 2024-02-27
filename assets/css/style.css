@@ -210,5 +210,9 @@ main {
         margin-top: 9%;
     }
 
+    #submission {
+        height: 1090px;
+    }
+
     /* Footer Content */
 }
