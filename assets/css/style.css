@@ -69,6 +69,10 @@ nav {
     display: none;
 }
 
+i {
+    font-size: 140%;
+}
+
 /* Main Content */
 main {
     background-color: rgb(155, 155, 155);
@@ -132,8 +136,18 @@ main {
 }
 
 /* Footer Content */ 
-footer {
-    background-color: rgb(255, 255, 255)
+#socials {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    list-style-type: none;
+    color: #ccae68;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+#socials i {
+    color: #000000;
+    padding: 8px;
 }
 
 /* Media Query for Tablets etc 768px+ */
