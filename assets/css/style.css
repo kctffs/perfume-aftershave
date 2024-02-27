@@ -84,8 +84,11 @@ main {
     /* Form */
 #submission {
     background-image: url(../images/pexels-bortnikoff.jpg);
+    /* Colour if image not available */
+    background-color: #000000;
+    height: 702px;
     background-size: cover;
-    background-position: 1000%;
+    background-position: center;
     padding: 3rem;
 }
 
