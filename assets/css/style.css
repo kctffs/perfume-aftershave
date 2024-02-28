@@ -179,6 +179,29 @@ main {
     color: #ccae68;
  }
 
+ .ranking-table {
+    font-size: 80%;
+    font-weight: bold;
+    text-align: center;
+ }
+
+ #tfol {
+    width: 140px;
+    height: 140px;
+    padding-bottom: 2px;
+ }
+
+ #cbdc {
+    width: 140px;
+    height: 140px;
+    padding-bottom: 2px;
+ }
+
+ #dgto {
+    width: 140px;
+    height: 140px;
+    padding-bottom: 2px;
+ }
 /* Footer Content */ 
 #socials {
     background-color: rgb(255, 255, 255);
