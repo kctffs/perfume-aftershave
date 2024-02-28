@@ -157,6 +157,26 @@ main {
     text-transform: uppercase;
     color: #ccae68;
     letter-spacing: 2px;
+    padding-left: 2%;
+ }
+
+ p {
+    margin: 2px 2em 5px 1em;
+ }
+
+ #perfume-top {
+    padding-top: 10px;
+ }
+
+ .subheading {
+    text-align: center;
+ }
+
+
+ #subheading-p {
+    text-align: center;
+    font-weight: bold;
+    color: #ccae68;
  }
 
 /* Footer Content */ 
