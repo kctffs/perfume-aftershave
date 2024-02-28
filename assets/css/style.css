@@ -143,14 +143,13 @@ main {
     font-family: 'Barlow', sans-serif;
     text-transform: uppercase;
     color: #ccae68;
-    text-align: left;
-    letter-spacing: 2px;
-    padding-left: 10%;
+    text-align: center;
+    letter-spacing: 5px;
 }
 
 .perf-after-hero {
-    position: relative;
     padding-top: 20px;
+    margin: auto;
 }
 
 /* Footer Content */ 
@@ -225,6 +224,11 @@ main {
 
     #submission {
         height: 1090px;
+    }
+
+    .perf-after-hero {
+        width: 60%;
+        height: 60%;
     }
 
     /* Footer Content */
