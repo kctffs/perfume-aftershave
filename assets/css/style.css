@@ -143,14 +143,12 @@ main {
     background-color: rgb(255, 255, 255);
     display: flex;
     list-style-type: none;
-    color: #ccae68;
-    justify-content: space-between;
-    padding: 1em;
+    justify-content: space-evenly;
+    padding: 1em 1em 1em 50px;
 }
 
 #socials i {
     color: #000000;
-    padding: 8px;
 }
 
 /* Media Query for Tablets etc 768px+ */
@@ -181,6 +179,10 @@ main {
     }
 
     /* Footer Content */
+
+    #socials {
+        padding-left: 100px;
+    }
 }
 
 /* Media query for laptops etc 992px+ */
@@ -215,4 +217,8 @@ main {
     }
 
     /* Footer Content */
+
+    #socials {
+        padding-left: 150px;
+    }
 }
