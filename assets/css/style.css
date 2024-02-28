@@ -75,7 +75,6 @@ i {
 
 /* Main Content */
 main {
-    background-color: rgb(155, 155, 155);
     /* Property to push Footer down */
     flex: 1 0 auto;
     margin-top: 98px;
@@ -136,6 +135,12 @@ main {
 .submission-title {
     color: #ffffff;
     font-weight: 500;
+}
+
+/* Perfume */
+
+#perfume-hero {
+    position: fixed;
 }
 
 /* Footer Content */ 
