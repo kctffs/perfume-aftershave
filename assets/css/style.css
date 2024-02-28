@@ -152,6 +152,13 @@ main {
     margin: auto;
 }
 
+ .content-title {
+    font-family: 'Barlow', sans-serif;
+    text-transform: uppercase;
+    color: #ccae68;
+    letter-spacing: 2px;
+ }
+
 /* Footer Content */ 
 #socials {
     background-color: rgb(255, 255, 255);
