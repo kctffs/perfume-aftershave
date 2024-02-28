@@ -47,6 +47,7 @@ h1 {
     text-transform: uppercase;
     justify-content: center;
     background-color: #ffffff;
+    display: flex;
 }
 
 #dropdown > li {
@@ -83,7 +84,7 @@ main {
     /* Form */
 #submission {
     background-image: url(../images/pexels-bortnikoff.jpg);
-    /* Colour if image not available */
+    /* Colour if image is not available */
     background-color: #000000;
     height: 665px;
     background-size: cover;
@@ -137,10 +138,19 @@ main {
     font-weight: 500;
 }
 
-/* Perfume */
+.page-subheading {
+    padding-top: 10px;
+    font-family: 'Barlow', sans-serif;
+    text-transform: uppercase;
+    color: #ccae68;
+    text-align: left;
+    letter-spacing: 2px;
+    padding-left: 10%;
+}
 
-#perfume-hero {
-    position: fixed;
+.perf-after-hero {
+    position: relative;
+    padding-top: 20px;
 }
 
 /* Footer Content */ 
@@ -205,10 +215,6 @@ main {
         display: flex;
         text-align: center;
         justify-content: center;
-    }
-
-    nav {
-        position: fixed;
     }
 
     /* Main Content */
