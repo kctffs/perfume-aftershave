@@ -177,6 +177,7 @@ main {
     text-align: center;
     font-weight: bold;
     color: #ccae68;
+    font-size: 110%;
  }
 
  /* Table */
@@ -233,6 +234,10 @@ main {
         padding: 0 20px 50px 20px;
     }
 
+    #subheading-p {
+        font-size: 110%;
+    }
+
     .ranking-table {
         font-size: 100%;
      }
@@ -277,10 +282,15 @@ main {
         height: 1090px;
     }
 
+    #subheading-p {
+        font-size: 120%;
+    }
+
     .perf-after-hero {
         width: 60%;
         height: 60%;
     }
+    
 
     .ranking-table {
         font-size: 100%;
