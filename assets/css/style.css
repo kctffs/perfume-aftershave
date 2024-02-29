@@ -125,7 +125,7 @@ main {
 }
 
 .form-explain {
-    padding: 10px
+    padding: 10px;
 }
 
 .submit-button {
@@ -179,6 +179,7 @@ main {
     color: #ccae68;
  }
 
+ /* Table */
  .ranking-table {
     width: 100%;
     font-size: 80%;
@@ -187,22 +188,36 @@ main {
  }
 
  #tfol {
-    width: 140px;
-    height: 140px;
+    width: 135px;
+    height: 135px;
     padding: 0 2px;
  }
 
  #cbdc {
-    width: 140px;
-    height: 140px;
+    width: 135px;
+    height: 135px;
     padding: 0 2px;
  }
 
  #dgto {
-    width: 140px;
-    height: 140px;
+    width: 135px;
+    height: 135px;
     padding:0 2px;
  }
+
+ #gfgg {
+    width: 135px;
+    height: 135px;
+    padding: 0 2px;
+ }
+
+ #vsb {
+    width: 135px;
+    height: 135px;
+    padding: 0 2px;
+ }
+
+
 /* Footer Content */ 
 #socials {
     background-color: rgb(255, 255, 255);
@@ -230,12 +245,12 @@ main {
     /* Main Content */
 
     #submission {
-        height: 910px
+        height: 910px;
     }
 
     #submission-form {
         margin-top: 25%;
-        padding: 50px 20px 0 20px
+        padding: 50px 20px 0 20px;
     }
 
     #email-form {
@@ -263,6 +278,7 @@ main {
         width: 200px;
         height: 200px;
         padding: 0 5px;
+     }
 
     /* Footer Content */
 
@@ -320,6 +336,7 @@ main {
      #dgto {
         width: 300px;
         height: 300px;
+     }
 
     /* Footer Content */
 
@@ -327,3 +344,4 @@ main {
         padding-left: 150px;
     }
 }
+
