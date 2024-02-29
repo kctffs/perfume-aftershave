@@ -21,6 +21,7 @@ header {
     position: fixed;
     width: 100%;
     text-align: center;
+    z-index: 5;
 }
 
 header a {
@@ -289,6 +290,7 @@ main {
     .perf-after-hero {
         width: 60%;
         height: 60%;
+        z-index: 1;
     }
     
 
