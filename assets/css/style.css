@@ -148,6 +148,7 @@ main {
     letter-spacing: 5px;
 }
 
+/* Video */
 .perf-after-hero {
     padding-top: 20px;
     margin: auto;
@@ -162,7 +163,7 @@ main {
  }
 
  p {
-    margin: 2px 2em 5px 1em;
+    margin: 2px 1em 5px 1em;
  }
 
  #perfume-top {
@@ -180,6 +181,24 @@ main {
     color: #ccae68;
     font-size: 110%;
  }
+
+ .history {
+    background-color: rgba(170, 150, 50, 0.2);
+    padding: 2px;
+    margin: 0 10px;
+}
+
+.making {
+    background-color: rgba(170, 150, 50, 0.2);
+    padding: 2px;
+    margin: 0 10px;
+}
+
+.types {
+    background-color: rgba(170, 150, 50, 0.2);
+    padding: 2px;
+    margin: 0 10px;
+}
 
  /* Table */
  .ranking-table {
@@ -290,9 +309,7 @@ main {
     .perf-after-hero {
         width: 60%;
         height: 60%;
-        z-index: 1;
     }
-    
 
     .ranking-table {
         font-size: 100%;
